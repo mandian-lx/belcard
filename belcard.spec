@@ -15,6 +15,7 @@ URL:		https://github.com/BelledonneCommunications/%{name}
 Source0:	https://github.com/BelledonneCommunications/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	cmake
+BuildRequires:	cmake(BcToolbox)
 BuildRequires:	cmake(Belr)
 BuildRequires:	pkgconfig(libudev)
 
